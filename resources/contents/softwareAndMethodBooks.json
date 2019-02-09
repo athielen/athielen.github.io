@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "Software Reliability Engineer: How Google Runs Operation",
+      "description": {
+        "author": "Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy",
+        "link": "https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/ref=sr_1_1?ie=UTF8&qid=1526959201&sr=8-1&keywords=sre",
+        "info": "Google’s Site Reliability Team explain how and why their commitment to the entire lifecycle has enabled the company to successfully build, deploy, monitor, and maintain some of the largest software systems in the world."
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "The Pragmatic Programmer: From Journeyman to Master",
+      "description": {
+        "author": "Andrew Hunt, David Thomas",
+        "link":"https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?ie=UTF8&qid=1532218001&sr=8-1&keywords=The+Pragmatic+Programmer%3A+From+Journeyman+to+Master"
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "The Mythical Man-Month: Essays on Software Engineering",
+      "description": {
+        "author": "Fred Brooks",
+        "link" : "https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1532218045&sr=1-1&keywords=The+Mythical+Man-Month"
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "Code Complete: A Practical Handbook of Software Construction",
+      "description": {
+        "author": "Steve McConnell",
+        "link" : "https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_3?s=books&ie=UTF8&qid=1532218063&sr=1-3&keywords=code+Complete"
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "description": {
+        "author": "Robert C. Martin",
+        "link" : "https://a.co/0lQLqpB"
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "Refactoring: Improving the Design of Existing Code",
+      "description": {
+        "author": "Martin Fowler & Ken Beck",
+        "link" : "https://a.co/1R1uP2Y"
+      }
+    },
+    {
+      "classType" : "bookLink",
+      "type" : "book",
+      "title": "The Principles of Product Development Flow: Second Generation of Lean Product Development",
+      "description": {
+        "author": "Donald G. Reinertsen",
+        "link" : "https://a.co/gtcoZE2"
+      }
+    }
+  ]
+}

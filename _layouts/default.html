@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Anthony Thielen, Software Engineer in Minneapolis." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Anthony Thielen" />
+  <meta property="og:url" content="https://anthonythielen.com/" />
+  <meta property="og:image" content="https://anthonythielen.com/img/casssquare.jpg" />
+  <meta property="og:description" content="Anthony Thielen, Software Engineer in Minneapolis." />
+  <meta property="og:site_name" content="Anthony Thielen's personal website" />
+
+  <!-- Favicon/theme -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/img/manifest.json">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#24d05a">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#24252d">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+  <script type='text/javascript' src='{{ site.url }}/js/fetch.js'></script>
+  <script type='text/javascript' src='{{ site.url }}/js/contents.js'></script>
+</head> 
+
+<body>
+
+  <div class="container">
+    
+    {% include mainTitle.html %}
+
+    <br>
+    
+    {% include navigation.html %}
+
+    {{ content }} <!-- Jekyll content  -->
+
+    <br>
+    <br>
+    
+    {% include footer.html %}
+
+  </div><!--  ./container-->
+
+</body>
+</html>

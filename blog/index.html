@@ -1,0 +1,33 @@
+---
+layout: default
+title: Anthony Thielen's Blog
+---
+
+	<h2>Blog</h2>
+
+	<div class="blog">
+	  {% if site.posts.size > 0 %}
+	    <div class="list-group">
+	      {% for post in site.posts%}
+	        <a href="{{ post.url }}" class="list-group-item">
+	          <h3 class="list-group-item-heading h6">{{ post.title }}
+	            <small class="blog-text-muted"> &ndash;
+	              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+	            </small>
+	          </h3>
+	        </a>
+	      {% endfor %}
+	    </div>
+	    <p class="blog_more_arrow"><a href="/blog/">more ➟</a></p>
+	  {% else %}
+	    <p>No posts found.</p>
+	  {% endif %}
+	</div>
+	<br><br><br>
+
+<!-- 	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span><h3>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li>
+	  {% endfor %}
+	</ul>	 -->

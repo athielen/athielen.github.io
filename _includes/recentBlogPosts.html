@@ -1,0 +1,13 @@
+<div class="newBlogPosts">
+  <div class="title flash">Recent Blog Posts</div>
+  Recent blog posts on coding, agile and architecture.
+  <div class="exp">
+      <p class="blog_more_arrow"><a href="/blog/" style="color:#CACACC;">Want to check out more? ➟</a></p>
+      {% for post in site.posts limit: 5 %}
+        <a href="{{ post.url }}" class="list-group-item">
+          <p class="list-group-item-heading h6">{{ post.title }}
+          </p>
+        </a>
+      {% endfor %}
+  </div><!-- /.exp -->
+</div><!-- /.newBlogPosts -->
