@@ -21,27 +21,17 @@
   <meta name="msapplication-config" content="/img/browserconfig.xml">
   <meta name="theme-color" content="#24252d">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-  <script type='text/javascript' src='{{ site.url }}/js/fetch.js'></script>
-  <script type='text/javascript' src='{{ site.url }}/js/contents.js'></script>
 </head> 
 
 <body>
 
   <div class="container">
-    
-    {% include mainTitle.html %}
 
-    <br>
-    
-    {% include navigation.html %}
+    {% include header.html %}
 
-    {{ content }} <!-- Jekyll content  -->
+    {{content}}
 
-    <br>
-    <br>
-    
     {% include footer.html %}
 
   </div><!--  ./container-->
