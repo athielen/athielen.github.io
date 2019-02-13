@@ -28,11 +28,17 @@ Being the lazy engineer that I am, I don't like friction. So I sought out ways t
 **Ideas for frictionless development**:
 
 -- Use Springboot for java web development
+
 -- Rely heavily on archetypes for java apps
+
 -- Use docker and templated virtualization solutions when possible
+
 -- Build out a commons code repo of generic code
+
 -- Create example self-opinioned projects of generic applications to use as templates
+
 -- Automate any data entry or ETL jobs you do manually (I have scripts that handle video transcoding for videos I place in a folder, I have scripts that download my favorite youtube subscriptions and places them in it's respective NAS share)
+
 -- Think platform development so you have a base to build off of for the next project
 
 ### 3. Build out a homelab
