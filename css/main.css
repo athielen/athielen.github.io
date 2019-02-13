@@ -5,7 +5,6 @@ body {
   font-family: sans-serif;
   color: #fff;
 }
-
 #header {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -17,7 +16,6 @@ body {
 #header:hover {
   color: grey;
 }
-
 .title {
   color: black;
   text-decoration: none;
@@ -33,7 +31,6 @@ body {
 nav {
   padding-top: 85px;
   list-style-position: inside;
-  /*position: relative;*/
 }
 li.NAV-1 {
     border-top: 4px solid #6CE0F1;
@@ -71,13 +68,11 @@ li.NAV-5:hover {
 li.NAV-6:hover {
     background-color: #D3A4F9;
 } 
-ul {
-    /*padding-inline-start: 0px;*/
+ul.NAV{
   list-style-position: inside;
+  display: inline;
   padding: 0;
   height: 2em;
-    /*list-style: none;*/
-    /*float: left;*/
 }
 li {
   margin: .5em 0;
@@ -151,6 +146,12 @@ h4 {
 p {
   padding-bottom: 30px;
 }
+a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  color: #E9BC3F;
+}
 .text {
   font-size: 15px;
   font-weight: 300;
@@ -161,13 +162,6 @@ p {
   font-style: italic;
 }
 .web-links {
-  color: black;
-  font-weight: 400;
-  text-decoration: none;
-  color: #E9BC3F;
-}
-
-a {
   color: black;
   font-weight: 400;
   text-decoration: none;
@@ -256,4 +250,16 @@ a {
 
 .videos {
   padding-bottom: 20px;
+}
+
+li.photo-gallery {
+  padding: 4px;
+  margin-bottom: 0px;
+}
+
+img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 125px;
 }
