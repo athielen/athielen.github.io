@@ -6,8 +6,8 @@ body {
   color: #fff;
 }
 #header {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     text-align: center;
 }
 #header:link {
@@ -29,7 +29,7 @@ body {
 }
 
 nav {
-  padding-top: 85px;
+  padding-top: 45px;
   list-style-position: inside;
 }
 li.NAV-1 {
@@ -89,8 +89,8 @@ nav-link:hover {
 }
 
 footer {
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-top: 20px;
   text-align: center;
   font-size: 13px;
 }
